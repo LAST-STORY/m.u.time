@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>টার্গেট বিকাশ চিরস্থায়ী ব্লক করে দিন।</p>
                 </div>
                 <div class="card-v3" onclick="window.initForm('sim')">
-                    <span class="badge-v3">2000 BDT</span>
+                    <span class="badge-v3">600 BDT</span>
                     <h3>Block Any SIM</h3>
                     <p>টার্গেট ব্যক্তির যেকোনো সিম বন্ধ করুন।</p>
                 </div>
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(type === 'loc') config = { title: 'Number to Location', fee: '600', field: 'টার্গেট মোবাইল নাম্বার দিন', placeholder: 'ENTER NUMBER' };
         if(type === 'call') config = { title: 'Number to Call List', fee: '2000', field: 'টার্গেট সিম নাম্বার দিন', placeholder: 'ENTER NUMBER' };
         if(type === 'blk') config = { title: 'Block Bkash', fee: '2000', field: 'টার্গেট বিকাশ নাম্বার দিন', placeholder: 'ENTER NUMBER' };
-        if(type === 'sim') config = { title: 'Block Any SIM', fee: '2000', field: 'টার্গেট সিম নাম্বার দিন', placeholder: 'ENTER NUMBER' };
+        if(type === 'sim') config = { title: 'Block Any SIM', fee: '600', field: 'টার্গেট সিম নাম্বার দিন', placeholder: 'ENTER NUMBER' };
 
         area.innerHTML = `
             <div class="module-v3 animate-in">
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${c.meta.map(m => `<span style="font-size:0.75rem; background:#f8fafc; padding:4px 10px; border-radius:8px; border:1px solid #eef2f6; color:var(--text-muted); font-weight:600;">${m}</span>`).join('')}
                 </div>
                 <div style="margin-top:auto; padding-top:20px; border-top:1px solid #f1f5f9;">
-                    <button class="submit-btn" style="width:100%; border-radius:50px;" onclick="window.showModal('Notice', 'কোর্স রেজিস্ট্রেশনের জন্য সরাসরি এডমিনের সাথে যোগাযোগ করুন।')">Enroll Now</button>
+                    <button class="submit-btn" style="width:100%; border-radius:50px;" onclick="window.showModal('Notice', 'কোর্স রেজিস্ট্রেশনের জন্য সরাসরি এডমিনের সাথে যোগাযোগ করুন। whatsapp 01829534989')">Enroll Now</button>
                 </div>
             </div>
         `).join('');
@@ -284,3 +284,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 800);
     };
 });
+
