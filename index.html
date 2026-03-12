@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M_U_TIME | Premium Information Hub</title>
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Global Loader -->
+    <div id="loader" class="loader-v3">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Custom Modal -->
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-v3">
+            <h2 id="modalTitle">Success!</h2>
+            <p id="modalBody">Your request has been submitted.</p>
+            <button class="modal-btn" onclick="window.closeModal()">Close</button>
+        </div>
+    </div>
+
+    <!-- Premium Navigation -->
+    <header class="header-v3">
+        <a href="#" class="logo-v3" onclick="location.reload()">M_U_TIME</a>
+        <nav class="nav-links-v3">
+            <a href="#services" class="nav-link active" data-nav="services">Services</a>
+            <a href="#courses" class="nav-link" data-nav="courses">Courses</a>
+            <a href="#contact" class="nav-link" data-nav="contact">Contact</a>
+            <button class="api-btn">Buy API</button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Dock -->
+    <nav class="mobile-dock">
+        <a href="#services" class="mobile-link active" data-nav="services">Services</a>
+        <a href="#courses" class="mobile-link" data-nav="courses">Courses</a>
+        <a href="#contact" class="mobile-link" data-nav="contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Services Section -->
+        <section class="section-v3 active" id="services">
+            <div class="hero-v3">
+                <h1>Professional <span>Data Solutions</span></h1>
+                <p>সবচেয়ে নির্ভরযোগ্য এবং প্রফেশনাল ডাটা সার্ভিস এখন আপনার হাতের নাগালে। আজই শুরু করুন আপনার কাঙ্ক্ষিত
+                    সেবা।</p>
+            </div>
+            <div id="serviceApp">
+                <!-- Dynamic Content Injected Here -->
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="section-v3" id="courses">
+            <div class="hero-v3">
+                <h1>Unlock <span>Global Skills</span></h1>
+                <p>ইন্ডাস্ট্রি এক্সপার্টদের কাছ থেকে শিখুন এবং নিজের ক্যারিয়ারকে নিয়ে যান নতুন উচ্চতায়।</p>
+            </div>
+            <div class="grid-container" id="courseApp">
+                <!-- Dynamic Content Injected Here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-v3" id="contact">
+            <div class="hero-v3">
+                <h1>Connect with <span>Us</span></h1>
+                <p>আমাদের সাথে যোগাযোগ করতে নিচের যেকোনো মাধ্যম ব্যবহার করুন।</p>
+            </div>
+            <div id="contactApp">
+                <!-- Dynamic Content Injected Here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
