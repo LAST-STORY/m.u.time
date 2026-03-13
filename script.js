@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const appData = {
         courses: [
-            { id: 'sec', title: 'Ethical Hacking & Cyber Security', desc: 'একদম জিরো থেকে প্রো হ্যাকার হয়ে উঠুন! এই কোর্সে পাচ্ছেন $500 মূল্যের Premium RAT, Malware, এবং Keyloggers একদম ফ্রি। রিয়েল-লাইফ প্র্যাকটিক্যাল অ্যাটাক শিখে নিজের হ্যাকিং ক্যারিয়ার গড়ুন। আগামী ২৫/০৩/২০২৬ তারিখের পর তৃতীয় ব্যচ এর রেজিষ্ট্রেশন শেষ হবে। মেয়াদ শেষ হবার আগেই যোগাযোগ করুন।, price: '২৫০০', meta: ['Premium RAT Free', 'Tools Included', 'Private Community'] },
+            { id: 'sec', title: 'Ethical Hacking & Cyber Security', desc: 'একদম জিরো থেকে প্রো হ্যাকার হয়ে উঠুন! এই কোর্সে পাচ্ছেন $500 মূল্যের Premium RAT, Malware, এবং Keyloggers একদম ফ্রি। রিয়েল-লাইফ প্র্যাকটিক্যাল অ্যাটাক শিখে নিজের হ্যাকিং ক্যারিয়ার গড়ুন। আগামী ২৫/০৩/২০২৬ তারিখের পর তৃতীয় ব্যচ এর রেজিষ্ট্রেশন শেষ হবে। মেয়াদ শেষ হবার আগেই যোগাযোগ করুন।,' price: '২৫০০', meta: ['Premium RAT Free', 'Tools Included', 'Private Community'] },
             { id: 'py', title: 'Python Automation & Bot Making', desc: 'নিজের পার্সোনাল অটোমেশন টুল এবং টেলিগ্রাম বট বানানো শিখুন। যেকোনো ওয়েবসাইট থেকে ডাটা স্ক্র্যাপিং এবং প্রতিদিনের বোরিং কাজগুলো অটোমেটিক করে ফেলুন এক নিমেষেই। প্রো লেভেলের স্ক্রিপ্টিং শিখুন।', price: '১৫০০', meta: ['Python Scripts Free', 'Bot Source Code', 'Full Support'] },
             { id: 'dark', title: 'Dark Web & Advanced OSINT Pro', desc: 'ডার্ক ওয়েবের গভীরে প্রবেশ করুন একদম নিরাপদে। শিখুন কীভাবে যেকোনো মানুষের ডিজিটাল ফুটপ্রিন্ট ট্র্যাক করা যায় এবং ইন্টারনেটে ফ্যান্টম বা অদৃশ্য হয়ে থাকার সিক্রেট টেকনিকগুলো আয়ত্ত করুন।', price: '২০০০', meta: ['OSINT Tools List', 'Ghost Security', 'Private Group'] }
         ],
@@ -284,5 +284,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 800);
     };
 });
+
 
 
